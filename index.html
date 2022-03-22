@@ -1,0 +1,132 @@
+<!-- html indica que esse documento eh html(tipo html eh para o navegador) -->
+<!DOCTYPE html>
+
+<!-- Configuracoes de elementos, exe idioma da pagina. -->
+<html lang="pt-br">
+
+<!-- head tem um conjunto de metadados, apenas configuracao para o navegadornao aparece no navegador. -->
+<head>
+    <!-- tag "meta"(configuracao) com atriburo "charset". -->
+    <meta charset="UTF-8"> <!--corrige pontuacao(alfabeto, "ç")-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Game Mania</title>
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- ligacao ao CSS -->
+    <link rel="stylesheet" href="css/style.css">
+     <!-- JavaScript -->
+    <script src="js/script.js" defer></script>
+</head>
+
+<!-- bory Marca os conteudos(imagens, videos, etc) -->
+<body>
+    <!-- Criando um cabeçalho -->
+    <header>
+        <logo>
+            <ul>
+                <a href="http://google.com"><img class="logo" src="img/logoGamaMania-removebg 1.png" alt="Logo do site Game Mania"></a>
+            </ul>
+        </logo>
+
+        <div class="container-grid cabecalho">
+             <!-- "alt" eh questao de acessibilidade(deficiente visual). -->
+            
+             
+            <nav class="menu">
+                <!-- <a href="http://google.com.br" target="_blank">Ir para o google em uma outra aba.</a> -->
+                <div class="container-menu">
+                   
+                    <div class="conteudo-produtos centralizar-container">
+
+                      
+                        
+                        <img src="img/Produtos.png" alt="Icone Controle">
+                        <a href="https://shopee.com.br/product/341568474/10089100796?smtt=0.341588049-1646391363.9" target="_blank">Produtos</a>
+                        <a href="https://shopee.com.br/product/341568474/10089100796?smtt=0.341588049-1646391363.9" target="_blank"><img src="img/SetaBaixo.png" alt="Seta para abrir o menu Produtos"></a>
+                    
+                    </div>
+    
+                    <div class="conteudo-contato centralizar-container">
+    
+                        <img src="img/Contato.png" alt="Icone Telefone">
+                        <a href="#" target="_blank">Contato</a>
+                        <a href="#" target="_blank"><img src="img/SetaBaixo.png" alt="Seta para abrir o menu Contatos"></a>
+                            
+                    </div>
+                    
+                    <div class="conteudo-gamer centralizar-container">
+    
+                        <img src="img/Gamer.png" alt="Icone Pessoa">
+                        <a href="#" target="_blank">Gamer</a>
+                        <a href="#" target="_blank"><img src="img/SetaBaixo.png" alt="Seta para abrir o menu Gamer"></a>
+                    
+                        
+                    </div>
+                </div>
+                
+            </nav>
+            
+            
+        </div>
+
+        <div class=" container-grid container-menu">
+
+            <div id="divBusca">
+                
+                <img src="img/lupaIcon.png" id="btnBusca" alt="Buscar"/>
+                <div class="container-menu">
+                    <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                    
+                </div>
+
+                <div class="cesta-compras">
+                    <img src="img/CestaCompras.png" alt="Cesta De Compras">
+                </div>
+               
+            </div>
+        
+        </div>
+
+       </header>
+   
+    <!-- Marca conteudo principal -->
+    <main>
+        <section class="banner"> 
+           <div class="container-grid posicionamento-banner">
+               <div class="conteudo-banner">
+                    <h1>Game Mania</h1>
+                    <p>Sua loja, sua vida!</p>
+                    <!-- link -->
+                    <!-- <a href="#">Inscreva-se</a> -->
+               </div>
+           </div>
+        </section>
+
+        <section class="frase">
+            <div class="container-grid posicao-frase">
+               <div class="conteudo-frase">
+                   <h2>Grandes aventuras esperam por você, prepare-se!</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="icones">
+            <div class="container-grid posicao-icones"> 
+                <img src="img/league-of-legends 1.png" alt="Logo League Of Legends">
+                <img src="img/Fortnite-Logo.wine 1.png" alt="Logo Fortnite">
+                <img src="img/minecraft 1.png" alt="Logo Minecraft">
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- Marca o rodape -->
+    <footer>
+
+    </footer>
+
+     <!-- JavaScript BootStrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

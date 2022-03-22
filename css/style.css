@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400;700&display=swap');
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: sans-serif;
+}
+
+
+/* todo elemento html que tiver o nome "header" vai ter o background preto. */
+header {
+    background-color: #11334D;
+    height: 80px;
+}
+
+logo img {
+    position: absolute;
+    /* border-top-left-radius:5px;
+    border-top-right-radius: 5px; */
+    width: 145px;
+    height: 145px;
+    left: 11%;
+    /* top: 2%; */
+       
+}
+
+/* Reaproveitar esra classe */
+.container-grid {
+    width: 1600px;
+    margin: 0 auto;
+    /* background-color: #1f251c; */
+}
+
+.cabecalho{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+
+.menu{
+    /* width: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.centralizar-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* width: 300px; */
+   
+}
+.container-menu{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    /* background-color: aliceblue; */
+}
+
+.conteudo-produtos{
+    height: 100%;
+    width: 230px;
+   
+}
+.conteudo-contato{
+    height: 100%;
+    width: 200px;
+}
+
+.conteudo-gamer{
+    height: 100%;
+    width: 160px;
+}
+
+.conteudo-pesquisa{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divBusca{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+
+#btnBusca{
+    height: 100%;
+    
+}
+  
+  #txtBusca{
+    /* float:left; */
+    /* background-color:transparent; */
+    padding-left:5px;
+    font-style:italic;
+    font-size:30px;
+    /* border:#11334D; */
+    height:100%;
+    width:92%;
+  }
+
+  .cesta-compras {
+      height: 100%;
+      /* width: 50px; */
+      display: flex;
+      justify-content: end;
+  }
+
+.banner{
+    height: 623px;
+    background-image: url(../img/FundoBanner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.conteudo-banner{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 495px;
+    align-items: center;
+    /* justify-content: flex-end; */
+    
+}
+
+.posicionamento-banner{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.conteudo-banner h1{
+    /* font-family: sans-serif; */
+    font-weight: 500;
+    font-size: 72px;
+} 
+
+.conteudo-banner p{
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.frase{
+    height: 55px;
+    background-color: #040A0F;
+}
+
+.conteudo-frase{
+    color: white;
+    font-size: 20px;
+}
+
+.posicao-frase {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones{
+    height: 79px;
+    background-color: #0B2233;
+}
+
+.posicao-icones{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+/* medida relativa */
+@media screen and (max-width: 1200px) {
+    .container-grid {
+       width: 90vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        background-color: rosybrown;
+    }
+}
+
+
