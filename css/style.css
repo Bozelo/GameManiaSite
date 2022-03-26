@@ -15,7 +15,7 @@ body {
 /* todo elemento html que tiver o nome "header" vai ter o background preto. */
 header {
     background-color: #11334D;
-    height: 80px;
+    height: 160px;
 }
 
 logo img {
@@ -29,6 +29,80 @@ logo img {
        
 }
 
+
+/* ________________________________
+Pagina Login Estilo inicio */
+
+.logo-tela-login{
+    position: absolute;
+    width: 145px;
+    height: 145px;
+    left: 50%;
+    
+}
+
+.container-login{
+    height: 603px;
+    /* width: 400px; */
+    background-color: #385367;
+}
+
+.container-login{
+    display: flex;
+    align-items: center;
+    
+}
+
+.conteudo-login{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+  
+}
+
+.conteudo-login p{
+    color: white;
+    font-size: 20px;
+}
+
+._div{
+    display: flex;
+    align-items: flex-end;
+    height: 90px;
+    width: 100%;
+    /* background-color: #398C18; */
+}
+
+._div-BT{
+    display: flex;
+    justify-content: center;
+}
+
+
+.barras-login{
+    height: 100%;
+    width: 65%;
+}
+
+#input{
+    /* float:left; */
+    /* background-color:transparent; */
+    padding-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-style:italic;
+    font-size:25px;
+    /* border:#11334D; */
+    height:100%;
+    width:100%;
+}
+
+/* Pagina Login Estilo fim
+________________________________ */
+
+
 /* Reaproveitar esra classe */
 .container-grid {
     width: 1600px;
@@ -38,17 +112,18 @@ logo img {
 
 .cabecalho{
 display: flex;
-justify-content: center;
+justify-content: space-around;
 align-items: center;
-height: 100%;
+height: 50%;
 }
 
 .menu{
     /* width: 20px; */
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    
 }
 
 .menu a{
@@ -99,16 +174,16 @@ height: 100%;
 #divBusca{
     height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
     
   }
 
-
-#btnBusca{
+.not{
     height: 100%;
-    
+    width: 200px;
 }
+
   
   #txtBusca{
     /* float:left; */
@@ -118,14 +193,40 @@ height: 100%;
     font-size:30px;
     /* border:#11334D; */
     height:100%;
-    width:92%;
+    width:57%;
   }
 
-  .cesta-compras {
+  .container-header2{
       height: 100%;
-      /* width: 50px; */
       display: flex;
-      justify-content: end;
+      justify-content: space-around;
+      align-items: center;
+    /* background-color: #59e613; */
+  }
+
+  .container-header2 img{
+      height: 100%;
+  }
+
+  .container-header2 h1{
+    color: white;
+    font-weight: 650;
+  }
+
+  .barra-busca{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+  }
+
+  .numero-compras{
+      height: 100%;
+      width: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
   }
 
 .banner{
@@ -170,16 +271,17 @@ height: 100%;
     background-color: #040A0F;
 }
 
-.conteudo-frase{
+
+.conteudo-frase p{
     color: white;
-    font-size: 20px;
+    font-size: 28px
 }
 
 .posicao-frase {
-    height: 100%;
+    
     display: flex;
     justify-content: center;
-    align-items: center;
+    
 }
 
 .icones{
@@ -190,8 +292,224 @@ height: 100%;
 .posicao-icones{
     height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items:center;
+}
+
+.container-mercadorias{
+    height: 1200px;
+    background-color: #11334D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-produto{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+.container-produto img{
+    /* height: 388px; */
+    /* width: 388px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Botoes{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+#bt-ver-produto{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    padding: 13px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    background-color: #226599;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 10px;
+   
+}
+
+#bt-add-carrinho{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    padding: 13px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: #226599;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+
+#bt-add-carrinho img{
+    width: 50px;
+}
+
+.valor-antigo{
+    display: flex;
+    justify-content: space-around;
+    color: red;
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: line-through;
+    /* background-color: aqua; */
+}
+
+
+.valores r1{
+    color: #398C18;
+}
+
+.valores{
+    /* width: 388px; */
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* background-color: #c6cec3; */
+}
+
+.valorConsoles{
+    /* color: #398C18; */
+    color: white;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+
+
+
+
+#BTverProduto{
+height: 74px;
+width: 388px;
+}
+
+
+footer{
+    height: 480px;
+    background-color: #06131D;
+    background-image: url(../img/rodape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-rodape{
+    /* height: 100%; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+  
+}
+
+.container-titulos{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-titulos h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.container-35{
+    width: 25%;
+    
+}
+
+.container-50{
+    width: 50%;
+}
+
+
+
+
+.container-contatos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 25%;
+
+    /* border: 8px solid #000000;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px; */
+
+   
+   
+}
+
+.container-whats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: #398C18; */
+    font-size: 35px;
+    color: white;
+}
+
+.container-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #617b8b; */
+    width: 100%;
+    display: flex;
+    font-size: 35px;
+    color: white;
+}
+
+.container-endereco{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+   
+    height: 100%;
+    width: 50%;
+    font-size: 35px;
+    color: white;
+}
+
+
+.container-redes-sociais{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #383c3f; */
 }
 
 /* medida relativa */
