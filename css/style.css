@@ -64,7 +64,7 @@ Pagina Login Estilo inicio */
 
 .conteudo-login p{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 ._div{
@@ -78,6 +78,13 @@ Pagina Login Estilo inicio */
 ._div-BT{
     display: flex;
     justify-content: center;
+}
+
+._div-BT button{
+    width: 20%;
+    color: white;
+    font-size: 28px;
+    background-color: #226599;
 }
 
 
@@ -107,7 +114,6 @@ ________________________________ */
 .container-grid {
     width: 1600px;
     margin: 0 auto;
-    /* background-color: #1f251c; */
 }
 
 .cabecalho{
