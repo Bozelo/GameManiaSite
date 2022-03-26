@@ -518,7 +518,7 @@ footer{
     /* background-color: #383c3f; */
 }
 
-/* medida relativa */
+/* medida relativa 90vw */
 @media screen and (max-width: 1200px) {
     .container-grid {
        width: 90vw;
